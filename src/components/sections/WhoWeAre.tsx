@@ -20,24 +20,20 @@ export default function WhoWeAre() {
         <div className="grid md:grid-cols-2 gap-10 items-start">
           {/* Text content */}
           <div>
-            <div className="inline-flex items-center gap-3 mb-6 rounded-full border border-[#5A8F2D]/30 bg-[#F8FAFC] px-4 py-3 max-w-max">
-              <Image
-                src="/favicon.png"
-                alt="Vidmahi logo"
-                width={40}
-                height={40}
-                className="rounded-full"
-              />
-              <p className="text-sm font-semibold text-[#0A2E6D]">
-                Vidmahi Educational Foundation
-              </p>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
+              <div className="flex items-center justify-center rounded-full bg-[#F8FAFC] p-2 shadow-sm">
+                <Image
+                  src="/favicon.png"
+                  alt="Vidmahi logo"
+                  width={44}
+                  height={44}
+                  className="rounded-full"
+                />
+              </div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-[#0A2E6D] leading-tight">
+                About Vidmahi Educational Foundation
+              </h2>
             </div>
-
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#0A2E6D] leading-tight mb-6">
-              About Vidmahi
-              <br />
-              <span className="text-[#5A8F2D]">Educational Foundation</span>
-            </h2>
 
             {aboutContent.paragraphs.map((p, i) => (
               <p key={i} className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">
@@ -73,22 +69,13 @@ export default function WhoWeAre() {
           </div>
 
           {/* Image */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg h-80 md:h-full min-h-64">
+          <div className="relative rounded-xl overflow-hidden shadow-lg h-80 md:h-full min-h-64 bg-gray-50">
             <Image
               src={aboutContent.image}
               alt="Students and teacher"
               fill
               className="object-cover"
             />
-            {/* Fallback color if image missing */}
-            <div className="absolute inset-0 bg-[#0A2E6D]/10 flex items-center justify-center">
-              <div className="text-center text-[#0A2E6D] opacity-30">
-                <svg width="64" height="64" viewBox="0 0 24 24" fill="currentColor" className="mx-auto mb-2">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
-                </svg>
-                <p className="text-sm">Add image to /public/hero/about-image.jpg</p>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -109,7 +96,7 @@ export default function WhoWeAre() {
             <div className="flex flex-col items-center gap-6 max-w-sm mx-auto">
               <div className="relative rounded-full overflow-hidden w-72 h-72 bg-white shadow-sm mx-auto">
                 <Image
-                  src="/hero/singari-sri-varun.jpg"
+                  src="/hero/singari-sri-varun.png"
                   alt="Singari Sri Varun, Founder and Manager"
                   fill
                   className="object-cover"
