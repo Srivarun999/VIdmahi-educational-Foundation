@@ -110,13 +110,8 @@ export default function WhoWeAre() {
             </div>
 
             <div className="flex flex-col items-center gap-6">
-              <div className="relative rounded-3xl overflow-hidden w-full max-w-sm h-[560px] bg-white shadow-sm">
-                <Image
-                  src="/hero/singari-sri-varun.jpg"
-                  alt="Volunteer Coordinator"
-                  fill
-                  className="object-cover"
-                />
+              <div className="rounded-3xl border border-dashed border-gray-300 bg-white p-10 w-full max-w-sm h-[560px] shadow-sm flex items-center justify-center text-gray-400 text-sm text-center">
+                Volunteer photo not added
               </div>
 
               <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
