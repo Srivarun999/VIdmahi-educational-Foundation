@@ -72,12 +72,12 @@ export default function WhoWeAre() {
           </div>
 
           {/* Image */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg h-80 md:h-full min-h-64 bg-gray-50">
+          <div className="relative rounded-xl overflow-hidden shadow-lg h-80 md:h-full min-h-64 bg-gray-50 p-6 flex items-center justify-center">
             <Image
               src={aboutContent.image}
               alt="Students and teacher"
               fill
-              className="object-cover"
+              className="object-contain"
             />
           </div>
         </div>
