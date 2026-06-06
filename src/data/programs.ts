@@ -7,6 +7,6 @@ export const programs: Program[] = [
     location: "Bhuthkur Village, Dasturabad Mandal, Nirmal District",
     description:
       "Providing free coaching and guidance for Jawahar Navodaya Vidyalaya Entrance Examinations to help rural students access quality education and greater opportunities.",
-    image: "/gallery/navodaya-coaching/program-cover.jpg",
+    image: "/gallery/navodaya-coaching/program-cover.png",
   },
 ];
