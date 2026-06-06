@@ -20,8 +20,8 @@ export default function WhoWeAre() {
         <div className="grid md:grid-cols-2 gap-10 items-start">
           {/* Text content */}
           <div>
-            <div className="flex flex-col sm:flex-row sm:items-center gap-4 mb-6">
-              <div className="flex items-center justify-center rounded-full bg-[#F8FAFC] p-2 shadow-sm">
+            <div className="inline-flex items-center gap-4 mb-6 rounded-full border border-[#5A8F2D]/20 bg-white px-4 py-3 shadow-sm ring-1 ring-[#DDEBDD]">
+              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#F8FAFC] shadow-inner">
                 <Image
                   src="/favicon.png"
                   alt="Vidmahi logo"
@@ -30,10 +30,13 @@ export default function WhoWeAre() {
                   className="rounded-full"
                 />
               </div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-[#0A2E6D] leading-tight">
-                About Vidmahi Educational Foundation
-              </h2>
+              <p className="text-base font-semibold text-[#0A2E6D]">
+                Vidmahi Educational Foundation
+              </p>
             </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#0A2E6D] leading-tight mb-6">
+              About Vidmahi Educational Foundation
+            </h2>
 
             {aboutContent.paragraphs.map((p, i) => (
               <p key={i} className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">
