@@ -92,9 +92,9 @@ export default function WhoWeAre() {
             </p>
           </div>
 
-          <div className="grid gap-8 xl:grid-cols-2 justify-center">
-            <div className="flex flex-col items-center gap-6">
-              <div className="relative rounded-3xl overflow-hidden w-full max-w-sm h-[560px] bg-white shadow-sm">
+          <div className="grid gap-8 justify-center">
+            <div className="flex flex-col items-center gap-6 max-w-sm mx-auto">
+              <div className="relative rounded-3xl overflow-hidden w-full h-[560px] bg-white shadow-sm">
                 <Image
                   src="/hero/singari-sri-varun.jpg"
                   alt="Singari Sri Varun, Founder and Manager"
@@ -106,17 +106,6 @@ export default function WhoWeAre() {
               <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
                 <p className="text-xl font-semibold text-[#0A2E6D]">Singari Sri Varun</p>
                 <p className="text-sm text-gray-500">Founder · Manager</p>
-              </div>
-            </div>
-
-            <div className="flex flex-col items-center gap-6">
-              <div className="rounded-3xl border border-dashed border-gray-300 bg-white p-10 w-full max-w-sm h-[560px] shadow-sm flex items-center justify-center text-gray-400 text-sm text-center">
-                Volunteer photo not added
-              </div>
-
-              <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
-                <p className="text-xl font-semibold text-[#0A2E6D]">Volunteer Coordinator</p>
-                <p className="text-sm text-gray-500">Volunteer Leadership</p>
               </div>
             </div>
           </div>
