@@ -20,6 +20,19 @@ export default function WhoWeAre() {
         <div className="grid md:grid-cols-2 gap-10 items-start">
           {/* Text content */}
           <div>
+            <div className="inline-flex items-center gap-3 mb-6 rounded-full border border-[#5A8F2D]/30 bg-[#F8FAFC] px-4 py-3 max-w-max">
+              <Image
+                src="/favicon.png"
+                alt="Vidmahi logo"
+                width={40}
+                height={40}
+                className="rounded-full"
+              />
+              <p className="text-sm font-semibold text-[#0A2E6D]">
+                Vidmahi Educational Foundation
+              </p>
+            </div>
+
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0A2E6D] leading-tight mb-6">
               About Vidmahi
               <br />
@@ -94,7 +107,7 @@ export default function WhoWeAre() {
 
           <div className="grid gap-8 justify-center">
             <div className="flex flex-col items-center gap-6 max-w-sm mx-auto">
-              <div className="relative rounded-3xl overflow-hidden w-full h-[560px] bg-white shadow-sm">
+              <div className="relative rounded-full overflow-hidden w-72 h-72 bg-white shadow-sm mx-auto">
                 <Image
                   src="/hero/singari-sri-varun.jpg"
                   alt="Singari Sri Varun, Founder and Manager"
