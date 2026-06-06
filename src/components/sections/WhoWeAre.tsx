@@ -80,41 +80,49 @@ export default function WhoWeAre() {
         </div>
 
         <div className="mt-16 rounded-3xl border border-gray-200 bg-[#F8FAFC] p-8">
-          <div className="grid lg:grid-cols-[360px_1fr] gap-8 items-center">
-            <div className="relative rounded-3xl overflow-hidden h-[540px] md:h-[620px] bg-white shadow-sm">
-              <Image
-                src="/hero/singari-sri-varun.jpg"
-                alt="Singari Sri Varun, Founder and Manager"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <p className="mt-3 text-sm text-gray-500">
-              Upload your photo to /public/hero/singari-sri-varun.jpg
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="uppercase tracking-widest text-xs text-[#5A8F2D] font-semibold mb-3">
+              VOLUNTEER LEADERSHIP
             </p>
+            <h3 className="text-3xl font-bold text-[#0A2E6D] mb-4">
+              Meet the Volunteers
+            </h3>
+            <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
+              Vidmahi Educational Foundation is built on public funding and community support. Volunteers help us extend our reach, guide students, and manage the foundation's programs with transparency and care.
+            </p>
+          </div>
 
-            <div>
-              <p className="uppercase tracking-widest text-xs text-[#5A8F2D] font-semibold mb-3">
-                VOLUNTEER LEADERSHIP
-              </p>
-              <h3 className="text-3xl font-bold text-[#0A2E6D] mb-4">
-                Meet the Volunteers
-              </h3>
-              <p className="text-gray-600 mb-4 leading-relaxed text-sm sm:text-base">
-                Vidmahi Educational Foundation is built on public funding and community support. Volunteers help us extend our reach, guide students, and manage the foundation's programs with transparency and care.
-              </p>
-              <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm">
+          <div className="grid gap-8 xl:grid-cols-2 justify-center">
+            <div className="flex flex-col items-center gap-6">
+              <div className="relative rounded-3xl overflow-hidden w-full max-w-sm h-[560px] bg-white shadow-sm">
+                <Image
+                  src="/hero/singari-sri-varun.jpg"
+                  alt="Singari Sri Varun, Founder and Manager"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
                 <p className="text-xl font-semibold text-[#0A2E6D]">Singari Sri Varun</p>
                 <p className="text-sm text-gray-500">Founder · Manager</p>
               </div>
-              <a
-                href={VOLUNTEER_FORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-flex items-center justify-center rounded-full bg-[#5A8F2D] px-5 py-3 text-sm font-semibold text-white hover:bg-[#4a7a25] transition-colors"
-              >
-                Join as Volunteer
-              </a>
+            </div>
+
+            <div className="flex flex-col items-center gap-6">
+              <div className="relative rounded-3xl overflow-hidden w-full max-w-sm h-[560px] bg-white shadow-sm">
+                <Image
+                  src="/hero/singari-sri-varun.jpg"
+                  alt="Volunteer Coordinator"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
+                <p className="text-xl font-semibold text-[#0A2E6D]">Volunteer Coordinator</p>
+                <p className="text-sm text-gray-500">Volunteer Leadership</p>
+              </div>
             </div>
           </div>
         </div>
