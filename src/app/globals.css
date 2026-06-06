@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0a2e6d;
+  --green: #5a8f2d;
+  --gold: #f2b233;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1a1a1a;
+}
+
+@layer utilities {
+  .text-primary { color: #0a2e6d; }
+  .text-green-foundation { color: #5a8f2d; }
+  .text-gold { color: #f2b233; }
+  .bg-primary { background-color: #0a2e6d; }
+  .bg-green-foundation { background-color: #5a8f2d; }
+  .bg-gold { background-color: #f2b233; }
+  .border-primary { border-color: #0a2e6d; }
+  .border-green-foundation { border-color: #5a8f2d; }
+}
