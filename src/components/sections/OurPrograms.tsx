@@ -54,12 +54,6 @@ export default function OurPrograms() {
                   fill
                   className="object-cover"
                 />
-                {/* fallback */}
-                <div className="absolute inset-0 bg-[#0A2E6D]/10 flex items-center justify-center">
-                  <p className="text-[#0A2E6D]/40 text-xs text-center px-4">
-                    Add image to /public/gallery/{program.id}/program-cover.jpg
-                  </p>
-                </div>
               </div>
             </div>
           ))}
