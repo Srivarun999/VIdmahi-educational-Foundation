@@ -72,10 +72,16 @@ export default function ContactUs() {
               <div>
                 <p className="font-semibold text-[#0A2E6D] text-sm mb-2">Follow Us</p>
                 <div className="flex gap-2">
-                  {contactInfo.facebook && (
-                    <a href={contactInfo.facebook} target="_blank" rel="noopener noreferrer"
-                      className="w-8 h-8 rounded-full bg-[#0A2E6D] text-white flex items-center justify-center text-xs font-bold hover:bg-blue-700 transition-colors">
-                      f
+                  {contactInfo.x && (
+                    <a href={contactInfo.x} target="_blank" rel="noopener noreferrer"
+                      className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center text-xs font-bold hover:bg-gray-800 transition-colors">
+                      X
+                    </a>
+                  )}
+                  {contactInfo.linkedin && (
+                    <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer"
+                      className="w-8 h-8 rounded-full bg-blue-700 text-white flex items-center justify-center text-[10px] font-bold hover:bg-blue-800 transition-colors">
+                      in
                     </a>
                   )}
                   {contactInfo.instagram && (
