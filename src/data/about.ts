@@ -1,6 +1,6 @@
 export const aboutContent = {
   heading: "About Vidmahi Educational Foundation",
-  image: "/favicon.png",
+  image: "/about-us.png",
   paragraphs: [
     "Vidmahi Educational Foundation is a publicly funded educational initiative committed to supporting government school students through education, guidance, and opportunity.",
     "Born in Bhuthkur Village, Dasturabad Mandal, Nirmal District, our mission is to help government school children discover their potential and achieve their dreams through quality learning and mentorship.",
