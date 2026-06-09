@@ -93,16 +93,6 @@ export default function WhoWeAre() {
             <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
               Vidmahi Educational Foundation is built on public funding and community support. Volunteers help us extend our reach, guide students, and manage the foundation's programs with transparency and care.
             </p>
-            <div className="mt-8">
-              <a
-                href={VOLUNTEER_FORM_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-full bg-[#5A8F2D] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#4f7c25]"
-              >
-                Join as Volunteer
-              </a>
-            </div>
           </div>
 
           <div className="grid gap-8 justify-center">
@@ -119,6 +109,16 @@ export default function WhoWeAre() {
               <div className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm text-center">
                 <p className="text-xl font-semibold text-[#0A2E6D]">Singari Sri Varun</p>
                 <p className="text-sm text-gray-500">Founder · Manager</p>
+                <div className="mt-4">
+                  <a
+                    href={VOLUNTEER_FORM_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center rounded-full bg-[#5A8F2D] px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#4f7c25]"
+                  >
+                    Join as Volunteer
+                  </a>
+                </div>
               </div>
             </div>
           </div>
