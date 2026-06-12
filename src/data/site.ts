@@ -10,7 +10,7 @@ export const heroSlides: HeroSlide[] = [
     alt: "Students studying together",
   },
   {
-    image: "/hero/hero-3.jpg",
+    image: "/hero/hero-3.png",
     alt: "Teacher mentoring students",
   },
 ];
