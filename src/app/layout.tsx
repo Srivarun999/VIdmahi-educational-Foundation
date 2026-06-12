@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import MahiAIWidget from "@/components/ai/MahiAIWidget";
 
 export const metadata: Metadata = {
   title: "Vidmahi Educational Foundation",
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <MahiAIWidget />
       </body>
     </html>
   );

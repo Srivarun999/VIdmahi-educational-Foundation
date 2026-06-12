@@ -45,9 +45,7 @@ export default function HeroSlider() {
       {/* Content */}
       <div className="relative z-10 flex flex-col justify-center h-full max-w-7xl mx-auto px-6 sm:px-10">
         <div className="max-w-xl">
-          <p className="text-yellow-400 uppercase tracking-widest text-xs font-semibold mb-3">
-            Empowering Rural Students
-          </p>
+          
           <h1 className="text-white text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-2">
             Empowering Rural Students.
           </h1>
